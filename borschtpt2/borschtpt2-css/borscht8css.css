@@ -1,0 +1,102 @@
+/* font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display SC', serif; */
+
+
+h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 120px;
+    
+    
+}
+
+h3{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+    position: absolute;
+    top: 160px;
+}
+
+.ingredient{
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+
+#beet{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+
+#butter{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+
+#onion{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+#grain{
+    position: absolute;
+    top: 300px;
+    left: 1250px;
+}
+#bay{
+    position: absolute;
+    top:350px;
+    left:170px;
+}
+#beef{
+    position: absolute;
+    top: 350px;
+    left: 320px;
+}
+#potato{
+    position: absolute;
+    top: 350px;
+    left: 570px;
+}
+#cabbage{
+    position: absolute;
+    top: 350px;
+    left: 1150px;
+}
+#garlic{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+#cider{
+    position: absolute;
+    top: 400px;
+    left: 350px;  
+}
+
+#sugar{
+    position: absolute;
+    top: 400px;
+    left: 560px;
+}
+#pepper{
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+
+#cream{
+    position: absolute;
+    top: 450px;
+    left: 170px;
+    
+}
+
+.instructions{
+    padding-top: 200px;
+    font-family: 'EB Garamond', serif;
+    margin-right: 20%;
+    margin-left: 20px;
+
+}

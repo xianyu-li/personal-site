@@ -1,0 +1,55 @@
+/* font-style
+font-weight
+font-size
+font-family
+text-align
+line-height
+letter-spacing
+text-transform */
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Noto Serif SC', serif; */
+
+body{
+    text-align:center;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.ingredients{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 15px;
+}
+#onion{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#potato{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#cream{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.breaker{
+    text-align: center;
+}
+.instruction{
+    padding-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Noto Serif SC', serif;
+}

@@ -1,0 +1,29 @@
+body{
+    margin-left: 50%;
+}
+
+
+.one{
+    position: absolute;
+	top: 100px;
+	left: 30px;
+    
+}
+
+.two{
+    position: absolute;
+	top: 100px;
+	left: 30px;
+}
+
+.three{
+    position: absolute;
+	top: 100px;
+	left: 30px;
+}
+
+.four{
+    position: absolute;
+	top: 100px;
+	left: 30px;
+}

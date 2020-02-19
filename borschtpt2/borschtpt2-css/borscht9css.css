@@ -1,0 +1,54 @@
+/* font-family: 'Baskervville', serif;
+font-family: 'PT Mono', monospace; */
+
+html{
+    font-family: 'PT Mono', monospace; 
+    margin: 10%;
+}
+h1{
+    font-family: 'PT Mono', monospace; 
+    font-size: 100px;
+    position: sticky;
+    top: -1px;
+    left: 20px; 
+}
+
+h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+.cut{
+    font-size: 20px;
+    position: sticky;
+    top: -1px;
+
+}
+
+.add{
+    font-size: 20px;
+    position: sticky;
+    top: -1px;
+
+}
+
+.pour{
+    font-size: 20px;
+    position: sticky;
+    top: -1px;
+
+}
+
+.addthe{
+    font-size: 20px;
+    position: sticky;
+    top: -1px;
+
+}
+
+p{
+    margin-left: 10%;
+    margin-right:20%;
+    line-height: 3;
+}

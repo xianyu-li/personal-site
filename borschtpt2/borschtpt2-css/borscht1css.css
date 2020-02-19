@@ -1,0 +1,58 @@
+h3{
+    position: static;
+}
+#beet {
+    padding-left: 0px;
+}
+
+#butter{
+    padding-left: 20px;
+}
+
+#onion{
+    padding-left: 40px;
+}
+
+#grain{
+    padding-left: 60px;
+}
+
+#bay{
+    padding-left: 80px;
+}
+
+#beef{
+    padding-left: 100px;
+}
+
+#potato{
+    padding-left: 60px;
+}
+
+#cabbage{
+    padding-left: 80px;
+}
+
+#garlic{
+    padding-left: 100px;
+}
+
+#cider{
+    padding-left: 120px;
+}
+
+#sugar{
+    padding-left: 140px;
+}
+
+#pepper{
+    padding-left: 160px;
+}
+
+#cream{
+    padding-left: 180px;
+}
+
+p{
+    padding-bottom :500px;
+}

@@ -1,0 +1,29 @@
+h1{
+    padding-left:20%;
+}
+.ingredient{
+    float:right;
+    padding: 100px;
+}
+
+#cut{
+    padding-top: 0px;
+}
+
+#add{
+    
+    padding-top:50px;
+    margin-left: 150px;
+
+}
+
+#pour{
+
+    padding-top:50px;
+
+}
+
+#addthe{
+    padding-top: 150px;
+    margin-left: 150px;
+}

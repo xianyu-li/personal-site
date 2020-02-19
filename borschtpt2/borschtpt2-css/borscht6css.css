@@ -1,0 +1,76 @@
+/* font-style
+font-weight
+font-size
+font-family
+text-align
+line-height
+letter-spacing
+text-transform */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif; */
+
+h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 250px
+}
+
+.ingredients{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#beet{
+    font-size: 300px;
+}
+
+#butter{
+    font-size: 50px;
+}
+
+#onion{
+    font-size: 1px;
+    letter-spacing: 5px;
+}
+
+#grain{
+    font-size: 2px;
+}
+#bay{
+    font-size: 0.5px;
+    letter-spacing: 5px;
+}
+#beef{
+    font-size: 1.5px;
+}
+#potato{
+    font-size: 2px;
+}
+#cabbage{
+    font-size: .5px;
+}
+
+#garlic{
+    font-size: 4px;
+}
+#cider{
+    font-size:2px;
+}
+#sugar{
+    font-size:1px;
+    letter-spacing: 5px;
+}
+#pepper{
+    font-size: .5px;
+    letter-spacing: 5px;
+}
+#cream{
+    font-size: 1px;
+    letter-spacing: 5px;
+}
+
+.instruction{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+}

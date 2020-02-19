@@ -1,0 +1,71 @@
+/* font-family: 'Courier Prime', monospace; */
+
+
+.one{
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+#beet{
+    padding-left: 150px;
+}
+#butter{
+    padding-left: 250px;
+}
+#onion{
+    padding-left: 350px;
+}
+
+
+
+.two{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#veggies{
+    margin-left: 450px;
+}
+#grain{
+    margin-left: 350px;
+}
+#bay{
+    margin-left: 250px;
+}
+#beef{
+    margin-left: 150px;
+}
+
+
+
+.three{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#potato{
+    margin-left: 250px;
+}
+#cabbage{
+    margin-left:350px;
+}
+#garlic{
+    margin-left:450px;
+}
+
+
+
+.four{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#cider{
+    margin-left: 350px;
+}
+#sugar{
+    margin-left: 250px;
+}
+#pepper{
+    margin-left: 150px
+}
+#cream{
+    margin-left:50px;
+}

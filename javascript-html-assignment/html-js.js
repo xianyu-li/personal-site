@@ -82,4 +82,3 @@ function reset() {
     document.getElementById('everything').style.backgroundColor="pink"
     document.getElementById('everything').style.color="teal "
 }
-

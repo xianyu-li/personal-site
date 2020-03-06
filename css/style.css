@@ -4,6 +4,13 @@ html{
     font-family: 'Abel', sans-serif;
 }
 
+/* BLACKOUT */
+
+/* #cover{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+} */
 button{
     display: flex;
     justify-content: flex-end;

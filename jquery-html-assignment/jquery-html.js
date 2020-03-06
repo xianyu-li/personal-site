@@ -7,7 +7,7 @@ $("h1").mouseover(function(){
 
 })
 
-$("h2").mouseover(function(){
+$("h2").mouseover(function(){   
     $("body").css({"font-family":"'Nosifer', cursive"});
     $("body").css({"background-color":"red"});
     $("body").css({"color":"black"})
@@ -38,8 +38,8 @@ $("#p3").mouseover(function(){
 })
 
 $("#p4").mouseover(function(){
-    $("h1").css({"transform":"rotate(20deg)","position":"absolute", "top":"400px","left":"30px"});
-    $("h2").css({"transform":"skew(30deg, 35deg)","position":"absolute","top":"450px"});
+    $("h1").css({"transform":"rotate(20deg)","position":"absolute", "top":"400px","left":"100px"});
+    $("h2").css({"transform":"skew(30deg, 35deg)","position":"absolute","top":"350px","left":"500px", "font-size":"200px"});
     $("blockquote").css({"transform":"skew(-20deg, -5deg)","position":"absolute","top":"450px"});
     $("#p1").css({"transform":"skew(-40deg, 5deg)","position":"absolute","top":"500px"});
     $("#p2").css({"transform":"skew(-20deg, -30deg)","position":"absolute","top":"520px","left":"700px"});

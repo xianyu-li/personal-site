@@ -6,20 +6,27 @@ html{
 
 /* BLACKOUT */
 
+
+
 /* #cover{
     background-color: black;
     width: 100vw;
     height: 100vh;
 } */
+
 button{
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+        
 }
 p{
     color: black;  
     font-size: 50pt;
     text-transform: uppercase
    
+}
+
+#name{
+    text-align:center;    
 }
 
 a{

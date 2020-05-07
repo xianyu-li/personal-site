@@ -195,6 +195,7 @@ $('.two').data('clicked',false).click(function(){
     }
     else{
         $('.two').show()
+        $('.happy').show()
         $('.angry').show()
         $('.anxious').show()
         $('.confused').show()
@@ -219,6 +220,7 @@ $('.three').data('clicked',false).click(function(){
     }
     else{
         $('.two').show()
+        $('.happy').show()
         $('.sad').show()
         $('.anxious').show()
         $('.confused').show()
@@ -243,6 +245,7 @@ $('.four').data('clicked',false).click(function(){
     }
     else{
         $('.two').show()
+        $('.happy').show()
         $('.sad').show()
         $('.angry').show()
         $('.confused').show()
@@ -267,6 +270,7 @@ $('.five').data('clicked',false).click(function(){
     }
     else{
         $('.two').show()
+        $('.happy').show()
         $('.sad').show()
         $('.angry').show()
         $('.anxious').show()
@@ -291,6 +295,7 @@ $('.six').data('clicked',false).click(function(){
     }
     else{
         $('.two').show()
+        $('.happy').show()
         $('.sad').show()
         $('.angry').show()
         $('.anxious').show()
@@ -315,6 +320,7 @@ $('.seven').data('clicked',false).click(function(){
     }
     else{
         $('.two').show()
+        $('.happy').show()
         $('.sad').show()
         $('.angry').show()
         $('.anxious').show()

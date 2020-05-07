@@ -54,7 +54,7 @@ var emojis  = [
         "emotions": ["<div class='confused'>😵</div>","<div class='confused'>😵</div>","<div class='happy'>😊</div>","<div class='happy'>😊</div>","<div class='happy'>😊</div>","<div class='confused'>😵</div>","<div class='confused'>😵</div>","<div class='confused'>😵</div>","<div class='confused'>😵</div>","<div class='confused'>😵</div>","<div class='confused'>😵</div>","<div class='confused'>😵</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class ='anxious'>😰</div>","<div class ='anxious'>😰</div>","<div class='neutral'>😐</div>","<div class='neutral'>😐</div>","<div class='neutral'>😐</div>","<div class='confused'>😵</div>","<div class='happy'>😊</div>","<div class='happy'>😊</div>"]
     },
     {
-        "date": "April 24",
+        "date": "24",
         "day": "Friday",
         "emotions": ["<div class='happy'>😊</div>","<div class='neutral'>😐</div>","<div class='neutral'>😐</div>","<div class='neutral'>😐</div>","<div class='neutral'>😐</div>","<div class='confused'>😵</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='sleep'>😴</div>","<div class='neutral'>😐</div>","<div class='confused'>😵</div>","<div class ='anxious'>😰</div>","<div class ='anxious'>😰</div>"]
     }
@@ -331,3 +331,8 @@ $('.seven').data('clicked',false).click(function(){
     }
 }    
 )
+
+function searchByEmoji() {
+	var filteredArray = emojis.filter(emojis => emojis.emotions === color);
+	return filteredArray;
+}

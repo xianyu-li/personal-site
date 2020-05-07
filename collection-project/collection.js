@@ -155,3 +155,173 @@ $('.neutral').data('clicked',false).click(function(){
     }
 })
 
+//filter//
+
+var happytimes = document.getElementsByClassName('happy')
+$('.one').data('clicked',false).click(function(){
+        if($('.one').data('clicked') === false){
+            $('.sad').hide()
+            $('.angry').hide()
+            $('.anxious').hide()
+            $('.confused').hide()
+            $('.sleep').hide()
+            $('.neutral').hide()
+            $('.text').append("I've been happy " + happytimes.length + " times" ).css({"font-family": "'PT Mono', monospace"})
+            $('.one').data('clicked',true)
+        }
+        else{
+            $('.sad').show()
+            $('.angry').show()
+            $('.anxious').show()
+            $('.confused').show()
+            $('.sleep').show()
+            $('.neutral').show()
+            $('.text').remove()
+            $('.one').data('clicked',false)
+        }
+    }    
+)
+var sadtimes = document.getElementsByClassName('sad')
+$('.two').data('clicked',false).click(function(){
+    if($('.two').data('clicked') === false){
+        $('.happy').hide()
+        $('.angry').hide()
+        $('.anxious').hide()
+        $('.confused').hide()
+        $('.sleep').hide()
+        $('.neutral').hide()
+        $('.text').append("I've been sad " + sadtimes.length + " times" ).css({"font-family": "'PT Mono', monospace"})
+        $('.two').data('clicked',true)
+    }
+    else{
+        $('.two').show()
+        $('.angry').show()
+        $('.anxious').show()
+        $('.confused').show()
+        $('.sleep').show()
+        $('.neutral').show()
+        $('.text').remove()
+        $('.two').data('clicked',false)
+    }
+}    
+)
+var angrytimes = document.getElementsByClassName('angry')
+$('.three').data('clicked',false).click(function(){
+    if($('.three').data('clicked') === false){
+        $('.happy').hide()
+        $('.sad').hide()
+        $('.anxious').hide()
+        $('.confused').hide()
+        $('.sleep').hide()
+        $('.neutral').hide()
+        $('.text').append("I've been angry " + angrytimes.length + " times" ).css({"font-family": "'PT Mono', monospace"})
+        $('.three').data('clicked',true)
+    }
+    else{
+        $('.two').show()
+        $('.sad').show()
+        $('.anxious').show()
+        $('.confused').show()
+        $('.sleep').show()
+        $('.neutral').show()
+        $('.text').remove()
+        $('.three').data('clicked',false)
+    }
+}    
+)
+var anxioustimes = document.getElementsByClassName('anxious')
+$('.four').data('clicked',false).click(function(){
+    if($('.four').data('clicked') === false){
+        $('.happy').hide()
+        $('.sad').hide()
+        $('.angry').hide()
+        $('.confused').hide()
+        $('.sleep').hide()
+        $('.neutral').hide()
+        $('.text').append("I've been anxious " + anxioustimes.length + " times" ).css({"font-family": "'PT Mono', monospace"})
+        $('.four').data('clicked',true)
+    }
+    else{
+        $('.two').show()
+        $('.sad').show()
+        $('.angry').show()
+        $('.confused').show()
+        $('.sleep').show()
+        $('.neutral').show()
+        $('.text').remove()
+        $('.four').data('clicked',false)
+    }
+}    
+)
+var confusedtimes = document.getElementsByClassName('confused')
+$('.five').data('clicked',false).click(function(){
+    if($('.five').data('clicked') === false){
+        $('.happy').hide()
+        $('.sad').hide()
+        $('.angry').hide()
+        $('.anxious').hide()
+        $('.sleep').hide()
+        $('.neutral').hide()
+        $('.text').append("I've been confused " + confusedtimes.length + " times" ).css({"font-family": "'PT Mono', monospace"})
+        $('.five').data('clicked',true)
+    }
+    else{
+        $('.two').show()
+        $('.sad').show()
+        $('.angry').show()
+        $('.anxious').show()
+        $('.sleep').show()
+        $('.neutral').show()
+        $('.text').remove()
+        $('.five').data('clicked',false)
+    }
+}    
+)
+var neutraltimes = document.getElementsByClassName('neutral')
+$('.six').data('clicked',false).click(function(){
+    if($('.six').data('clicked') === false){
+        $('.happy').hide()
+        $('.sad').hide()
+        $('.angry').hide()
+        $('.anxious').hide()
+        $('.sleep').hide()
+        $('.confused').hide()
+        $('.text').append("I've been okay about things " + neutraltimes.length + " times" ).css({"font-family": "'PT Mono', monospace"})
+        $('.six').data('clicked',true)
+    }
+    else{
+        $('.two').show()
+        $('.sad').show()
+        $('.angry').show()
+        $('.anxious').show()
+        $('.sleep').show()
+        $('.confused').show()
+        $('.text').remove()
+        $('.six').data('clicked',false)
+    }
+}    
+)
+var sleeptimes = document.getElementsByClassName('sleep')
+$('.seven').data('clicked',false).click(function(){
+    if($('.seven').data('clicked') === false){
+        $('.happy').hide()
+        $('.sad').hide()
+        $('.angry').hide()
+        $('.anxious').hide()
+        $('.neutral').hide()
+        $('.confused').hide()
+        $('.text').append("I've slept for " + sleeptimes.length + " hours" ).css({"font-family": "'PT Mono', monospace"})
+        $('.seven').data('clicked',true)
+    }
+    else{
+        $('.two').show()
+        $('.sad').show()
+        $('.angry').show()
+        $('.anxious').show()
+        $('.neutral').show()
+        $('.confused').show()
+        $('.text').remove()
+        $('.seven').data('clicked',false)
+    }
+}    
+)
